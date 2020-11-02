@@ -5,9 +5,9 @@
 Сервер запускався за допомогою WSGI-сервера "gunicorn", а саме командою gunicorn --bind 0.0.0.0:5000 app:app
 Перевірка роботи сервера здійснювалася за допомогою команди curl -v -XGET http://localhost:5000/api/v1/hello-world-24
 Після перевірки я побачив, що проблем з сервером немає і http протокол має статус 200, тому я вирішив закомітити та запушити файли моєї програми на свій гітхаб репозиторій. Для цього я використовував ряд команд, таких як:
-get init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Yaroslav-Rohan/AppliedProgramming.git
+get init;
+git add README.md;
+git commit -m "first commit";
+git remote add origin https://github.com/Yaroslav-Rohan/AppliedProgramming.git;
 git push -u origin master
 Після фінальної перевірки, я зробив висновок, що задоволений результатами виконання цієї лабораторної роботи
